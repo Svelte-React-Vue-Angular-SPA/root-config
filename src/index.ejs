@@ -39,7 +39,6 @@
     }
   </script>
   <link rel="preload" href="https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js" as="script">
-
   <!-- Add your organization's prod import map URL to this script's src  -->
   <!-- <script type="systemjs-importmap" src="/importmap.json"></script> -->
 
@@ -47,6 +46,7 @@
   <script type="systemjs-importmap">
     {
       "imports": {
+        "@carter-website/navbar-cw": "//localhost:5000/carter-website-navbar-cw.js",
         "@single-spa/welcome": "https://unpkg.com/single-spa-welcome/dist/single-spa-welcome.js",
         "@carter-website/root-config": "//localhost:9000/carter-website-root-config.js"
       }
