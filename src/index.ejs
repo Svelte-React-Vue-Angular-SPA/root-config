@@ -34,7 +34,9 @@
   <script type="systemjs-importmap">
     {
       "imports": {
-        "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js"
+        "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js",
+        "react": "https://cdn.jsdelivr.net/npm/react@16.13.1/umd/react.production.min.js",
+        "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@16.13.1/umd/react-dom.production.min.js"
       }
     }
   </script>
@@ -48,6 +50,7 @@
       "imports": {
         "@carter-website/navbar-cw": "//localhost:5002/carter-website-navbar-cw.js",
         "@carter-website/homepage-cw": "//localhost:5001/carter-website-homepage-cw.js",
+        "@carter-website/react-cw": "//localhost:5003/carter-website-react-cw.js",
         "@carter-website/root-config": "//localhost:9000/carter-website-root-config.js"
       }
     }
