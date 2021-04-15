@@ -1,5 +1,5 @@
 {
-  "name": "@carter-website/root-config",
+  "name": "@svelte-react-vue-angular-spa/root-config",
   "scripts": {
     "start": "webpack serve --port 9000 --env isLocal",
     "lint": "eslint src --ext js",
